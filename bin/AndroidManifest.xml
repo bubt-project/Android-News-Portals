@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newspotalsdemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/action_news_imgs"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Test" >
+        <activity
+            android:name="com.example.newspotalsdemo.MainActivity"
+            android:configChanges="orientation|screenLayout|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.newspotalsdemo.NewsActivity"
+            android:label="@string/title_activity_news" >
+        </activity>
+        <activity
+            android:name="com.example.newspotalsdemo.Bangla_news_Activity"
+            android:label="@string/title_activity_news" >
+        </activity>
+        <activity
+            android:name="com.example.newspotalsdemo.WebViewActivity"
+            android:label="@string/title_activity_web_view" >
+        </activity>
+        <activity
+            android:name="com.example.newspotalsdemo.Business_News_Activity"
+            android:label="@string/title_activity_business__news_" >
+        </activity>
+        <activity
+            android:name="com.example.newspotalsdemo.Jobs_News_Activity"
+            android:label="@string/title_activity_jobs__news_" >
+        </activity>
+        <activity
+            android:name="com.example.newspotalsdemo.Sport_news_Activity"
+            android:label="@string/title_activity_sport_news_" >
+        </activity>
+        <activity
+            android:name="com.example.newspotalsdemo.English_news_Activity"
+            android:label="@string/title_activity_english_news_" >
+        </activity>
+        <activity
+            android:name="com.example.newspotalsdemo.Magazine_News_Activity"
+            android:label="@string/title_activity_magazine__news_" >
+        </activity>
+        <activity
+            android:name="com.example.newspotalsdemo.Interntaional_News_Activity"
+            android:label="@string/title_activity_interntaional__news_" >
+        </activity>
+        <activity
+            android:name="com.example.newspotalsdemo.SingleItemView"
+            android:label="@string/title_activity_single_item_view" >
+        </activity>
+        <activity
+            android:name="com.example.newspotalsdemo.Versity_News"
+            android:label="@string/title_activity_versity__news" >
+        </activity>
+        <activity
+            android:name="com.example.newspotalsdemo.Private_University_List"
+            android:label="@string/title_activity_private__university_" >
+        </activity>
+        <activity
+            android:name="com.example.newspotalsdemo.Public_Unversity_List"
+            android:label="@string/title_activity_public__unversity__list" >
+        </activity>
+        <activity
+            android:name="com.example.newspotalsdemo.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>

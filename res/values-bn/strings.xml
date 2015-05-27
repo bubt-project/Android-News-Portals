@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">নিউস পোর্টাল</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>হোম</item>
+        <item>বাংলা নিউস</item>
+        <item>ইংলিশ নিউস</item>
+        <item>জব নিউস</item>
+        <item>বিসনেস নিউস</item>
+        <item>মাগাজিন </item>
+        <item>টিভি নিউস</item>
+        <item>স্পর্ট নিউস </item>
+        <item>ইন্টারন্যাশনাল নিউস </item>
+    </string-array>
+
+    <!-- List of Url link -->
+
+    <string-array name="bangla_news_url">
+        <item>http://m.prothom-alo.com/</item>
+        <item>http://www.bd-pratidin.com/</item>
+        <item>http://www.ittefaq.com.bd/</item>
+        <item>http://www.kalerkantho.com</item>
+        <item>http://dev.dailynayadiganta.com/</item>
+        <item>http://amardesh.com/</item>
+        <item>http://shokalerkhobor24.com/</item>
+        <item>www.dailyinqilab.com</item>
+        <item>http://www.jugantor.com/</item>
+        <item>http://www.dailysangram.com/</item>
+        <item>http://www.mzamin.com/</item>
+        <item>http://www.amadershomoy.com/</item>
+        <item>http://www.samakal.net/</item>
+        <item>http://www.dailyjanakantha.com/</item>
+        <item>http://bartamanpatrika.com/</item>
+        <item>http://www.jjdin.com/</item>
+        <item>http://www.bhorerkagoj.net/</item>
+        <item>http://www.manobkantha.com/</item>
+        <item>http://www.thedailysangbad.com/</item>
+        <item>http://www.alokitobangladesh.com/</item>
+        <item>http://www.natunbarta.com/</item>
+        <item>http://www.dainikdestiny.com/</item>
+        <item>http://www.weeklysonarbangla.net/</item>
+        <item>http://www.gonokantho.com</item>
+    </string-array>
+
+    <!-- List of news papper title -->
+
+    <string-array name="bangla_news_title">
+        <item>প্রথম আলো</item>
+        <item>বাংলাদেশ প্রতিদিন</item>
+        <item>দৈনিক ইত্তেফাক</item>
+        <item>দৈনিক কালের কণ্ঠ</item>
+        <item>দৈনিক নয়া দিগন্ত</item>
+        <item>আমার দেশ</item>
+        <item>দৈনিক সকালের খবর</item>
+        <item>দৈনিক ইনকিলাব</item>
+        <item>দৈনিক যুগান্তর</item>
+        <item>দৈনিক সংগ্রাম</item>
+        <item>দৈনিক মানবজমিন</item>
+        <item>আমাদের সময়</item>
+        <item>দৈনিক সমকাল</item>
+        <item>দৈনিক জনকণ্ঠ</item>
+        <item>দৈনিক বর্তমান</item>
+        <item>যায়যায়দিন</item>
+        <item>ভোরের কাগজ</item>
+        <item>দৈনিক মানব-কণ্ঠ</item>
+        <item>দৈনিক সংবাদ</item>
+        <item>আলো কি বাংলাদেশ</item>
+        <item>প্রকৃতি বার্তা</item>
+        <item>দৈনিক ডেসটিনি</item>
+        <item>সাপ্তাহিক সোনার বাংলা</item>
+        <item>গণ-কণ্ঠ</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/banglanews_icon</item>
+        <item>@drawable/jobs_icon</item>
+        <item>@drawable/business_icon</item>
+    </array>
+    <array name="bangla_news_icon">
+        <item>@drawable/prothomalo_logo</item>
+        <item>@drawable/bangladeshpotiidin</item>
+        <item>@drawable/ittefaq</item>
+        <item>@drawable/kalerkantho</item>
+        <item>@drawable/noyadigonto</item>
+        <item>@drawable/amardesh</item>
+        <item>@drawable/sokalerkhobor</item>
+        <item>@drawable/inqilab</item>
+        <item>@drawable/jugantor</item>
+        <item>@drawable/songram</item>
+        <item>@drawable/manabjamin</item>
+        <item>@drawable/amadersomoy</item>
+        <item>@drawable/somokal</item>
+        <item>@drawable/janakantha_logo</item>
+        <item>@drawable/bartoman</item>
+        <item>@drawable/jaijaidin</item>
+        <item>@drawable/vhorerkagoj</item>
+        <item>@drawable/manabkantho</item>
+        <item>@drawable/songbad</item>
+        <item>@drawable/alokitobangladesh</item>
+        <item>@drawable/natunbarta</item>
+        <item>@drawable/destiny</item>
+        <item>@drawable/weeksonarbangla</item>
+        <item>@drawable/gonokantho</item>
+    </array>
+    <!-- List of Jobs title -->
+    <string-array name="jobs_news_title">
+        <item>বিডি জব্স</item>
+        <item>প্রথম আলো জব্স</item>
+        <item>নয়া দিগন্ত জবস পোর্টাল</item>
+        <item>চাকরি অনলাইন</item>
+    </string-array>
+
+    <!-- jobs  news icon list -->
+
+    <array name="jobs_news_icons">
+        <item>@drawable/bdjobs</item>
+        <item>@drawable/prothoma_alo_jobs</item>
+        <item>@drawable/noyadigon_jobs</item>
+        <item>@drawable/chakirionlne_con</item>
+    </array>
+
+    <!-- jobs  news url -->
+
+    <string-array name="jobs_news_url">
+        <item>http://jobs.bdjobs.com/m/bn/Searchcategoriesbn.aspx</item>
+        <item>http://www.prothom-alojobs.com/job-search</item>
+        <item>http://www.nayadigantajobs.com/</item>
+        <item>http://www.chakrionline.com/home</item>
+    </string-array>
+
+    <!-- List of Business title -->
+    <string-array name="business_news_title">
+        <item>দৈনিক ফিনান্সিয়াল এক্সপ্রেস</item>
+        <item>দৈনিক বণিক বার্তা</item>
+        <item>অর্থ সূচক</item>
+        <item>শেয়ার নিউজ ২৪</item>
+        <item>দৈনিক শেয়ারবিজ</item>
+        <item>শেয়ার মার্কেট বিডি </item>
+        <item>দৈনিক স্টক বাংলাদেশ</item>
+        <item>বিডি স্টকবিজ </item>
+        <item>উদ্যোক্তা</item>
+        <item>বিসনেস ২৪বিডি</item>
+    </string-array>
+
+    <!-- Business  news icon list -->
+
+    <array name="business_news_icons">
+        <item>@drawable/financial_express</item>
+        <item>@drawable/bonikbarta</item>
+        <item>@drawable/artho_suchok</item>
+        <item>@drawable/share_news</item>
+        <item>@drawable/sharebiz</item>
+        <item>@drawable/sharemarketbd</item>
+        <item>@drawable/daily_stok_bangladesh</item>
+        <item>@drawable/bdstock_logo</item>
+        <item>@drawable/uddokta</item>
+        <item>@drawable/business24</item>
+    </array>
+
+    <!-- Business  news url -->
+
+    <string-array name="business_news_url">
+        <item>http://www.thefinancialexpress-bd.com/</item>
+        <item>http://www.bonikbarta.com/</item>
+        <item>http://m.arthosuchak.com/?wpmp_switcher=mobile</item>
+        <item>http://sharenews24.com/</item>
+        <item>http://www.dailysharebiz.com/sharebiz/</item>
+        <item>http://www.sharemarketbd.com/</item>
+        <item>http://www.dailystockbangladesh.com/</item>
+        <item>http://www.bdstock.biz/</item>
+        <item>http://www.udyokta.com/</item>
+        <item>http://www.business24bd.com/</item>
+    </string-array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_news">NewsActivity</string>
+    <string name="bangla_header_news">বাংলা সংবাদ</string>
+    <string name="business_header_news">বিসনেস নিউস</string>
+    <string name="jobs_header_news">কাজ সংবাদ</string>
+    <string name="sport_header_news">খেলাধুলা খবর</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_business__news_">Business_News_Activity</string>
+    <string name="title_activity_jobs__news_">Jobs_News_Activity</string>
+
+</resources>

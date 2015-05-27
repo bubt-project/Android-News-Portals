@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">News Potals</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="about">Bangladesh University Of Business Technology\n Create By : Ramananda Sarkar \n Department : CSE\n Email : cserama.tpi@gmail.com" </string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Bangla news</item>
+        <item>English News</item>
+        <item>Magazine News</item>
+        <item>Jobs News</item>
+        <item>Sport News </item>
+        <item>Business News</item>
+        <item>Versity News </item>
+        <item>International  </item>
+        <item>about me</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/banglanews_icon</item>
+        <item>@drawable/english_ic</item>
+        <item>@drawable/magagine_ic</item>
+        <item>@drawable/jobs_ic</item>
+        <item>@drawable/sports_ic</item>
+        <item>@drawable/business_ic</item>
+        <item>@drawable/education_ic</item>
+        <item>@drawable/international_ic</item>
+        <item>@drawable/about_ic</item>
+    </array>
+
+    <!-- List of Url link -->
+
+    <string-array name="bangla_news_url">
+        <item>http://m.prothom-alo.com/</item>
+        <item>http://www.bd-pratidin.com/</item>
+        <item>http://www.ittefaq.com.bd/</item>
+        <item>http://www.kalerkantho.com</item>
+        <item>http://dev.dailynayadiganta.com/</item>
+        <item>http://amardesh.com/</item>
+        <item>http://shokalerkhobor24.com/</item>
+        <item>www.dailyinqilab.com</item>
+        <item>http://www.jugantor.com/</item>
+        <item>http://www.dailysangram.com/</item>
+        <item>http://www.mzamin.com/</item>
+        <item>http://www.amadershomoy.com/</item>
+        <item>http://www.samakal.net/</item>
+        <item>http://www.dailyjanakantha.com/</item>
+        <item>http://bartamanpatrika.com/</item>
+        <item>http://www.jjdin.com/</item>
+        <item>http://www.bhorerkagoj.net/</item>
+        <item>http://www.manobkantha.com/</item>
+        <item>http://www.thedailysangbad.com/</item>
+        <item>http://www.alokitobangladesh.com/</item>
+        <item>http://www.natunbarta.com/</item>
+        <item>http://www.dainikdestiny.com/</item>
+        <item>http://www.weeklysonarbangla.net/</item>
+        <item>http://www.gonokantho.com</item>
+    </string-array>
+    <string-array name="home_url">
+        <item>http://www.facebook.com</item>
+        <item>http://www.twitter.com</item>
+    </string-array>
+
+    <!-- List of news papper title -->
+
+    <string-array name="bangla_news_title">
+        <item>Prothom Alo</item>
+        <item>Bangladesh Protidin</item>
+        <item>Daily Ittefaq</item>
+        <item>Daily KalerKantho</item>
+        <item>Daily nayadganta</item>
+        <item>Daily Amardesh</item>
+        <item>Daily Shokaler Khobor</item>
+        <item>Daily Inqilab</item>
+        <item>Daily Jugantor</item>
+        <item>Daily Sangram</item>
+        <item>Daily Manabjamin</item>
+        <item>Daily Amader Somoy</item>
+        <item>Daily Somokal</item>
+        <item>Daily Janakontho</item>
+        <item>Daily Bartoman</item>
+        <item>Jaijai din</item>
+        <item>Bhorer Kagoj</item>
+        <item>Daily Manobkantha</item>
+        <item>Daily Sangbad</item>
+        <item>Alokito Bangladesh</item>
+        <item>Notun-barta</item>
+        <item>Daily Destny</item>
+        <item>Weekly Sonar Bangla</item>
+        <item>Gono-kantho</item>
+    </string-array>
+
+    <array name="bangla_news_icon">
+        <item>@drawable/prothomalo_logo</item>
+        <item>@drawable/bangladeshpotiidin</item>
+        <item>@drawable/ittefaq</item>
+        <item>@drawable/kalerkantho</item>
+        <item>@drawable/noyadigonto</item>
+        <item>@drawable/amardesh</item>
+        <item>@drawable/sokalerkhobor</item>
+        <item>@drawable/inqilab</item>
+        <item>@drawable/jugantor</item>
+        <item>@drawable/songram</item>
+        <item>@drawable/manabjamin</item>
+        <item>@drawable/amadersomoy</item>
+        <item>@drawable/somokal</item>
+        <item>@drawable/janakantha_logo</item>
+        <item>@drawable/bartoman</item>
+        <item>@drawable/jaijaidin</item>
+        <item>@drawable/vhorerkagoj</item>
+        <item>@drawable/manabkantho</item>
+        <item>@drawable/songbad</item>
+        <item>@drawable/alokitobangladesh</item>
+        <item>@drawable/natunbarta</item>
+        <item>@drawable/destiny</item>
+        <item>@drawable/weeksonarbangla</item>
+        <item>@drawable/gonokantho</item>
+    </array>
+
+    <!-- List of English news Title -->
+    <string-array name="english_news_title">
+        <item>The Daily Star</item>
+        <item>The Independent</item>
+        <item>Daily Sun</item>
+        <item>News Today</item>
+        <item>bdnews24.com</item>
+        <item>The-Editor</item>
+        <item>The Daily new nation</item>
+        <item>Bangladesh Today</item>
+        <item>BSS news agency</item>
+        <item>New Age Daily</item>
+        <item>UNN Bangladesh</item>
+        <item>UNB Connect</item>
+    </string-array>
+
+    <!-- english  news icon list -->
+
+    <array name="english_news_icons">
+        <item>@drawable/thedaily_start</item>
+        <item>@drawable/theindependent</item>
+        <item>@drawable/daily_sun</item>
+        <item>@drawable/the_news_today</item>
+        <item>@drawable/bdnew24</item>
+        <item>@drawable/the_editor</item>
+        <item>@drawable/the_news_nations</item>
+        <item>@drawable/today_bangladesh_news</item>
+        <item>@drawable/bss_news</item>
+        <item>@drawable/new_age</item>
+        <item>@drawable/unnb</item>
+        <item>@drawable/unbconnect</item>
+    </array>
+
+    <!-- english  news url -->
+
+    <string-array name="english_news_url">
+        <item>http://www.dailystar.com.lb</item>
+        <item>http://www.theindependentbd.com/</item>
+        <item>http://www.dailysun.co.za/</item>
+        <item>http://www.newstoday.com.bd/</item>
+        <item>http://m.bdnews24.com/en</item>
+        <item>http://www.the-editor.net/</item>
+        <item>http://thedailynewnation.com/</item>
+        <item>http://thebangladeshtoday.com/</item>
+        <item>http://www.bssnews.net/</item>
+        <item>http://newagebd.net/</item>
+        <item>http://www.un-bd.org/</item>
+        <item>http://www.unbnews.org/</item>
+    </string-array>
+
+    <!-- List of Magazine news Title -->
+    <string-array name="magazine_news_title">
+        <item>Doshdik</item>
+        <item>ei-somoy</item>
+        <item>Ananda Alo</item>
+        <item>Computer Jagat</item>
+        <item>Shaptahik</item>
+        <item>Corporate</item>
+        <item>Kali O kalam</item>
+        <item>Charbela Chardik</item>
+        <item>Bangla-mati</item>
+    </string-array>
+
+    <!-- Magazine  news icon list -->
+
+    <array name="magazine_news_icons">
+        <item>@drawable/doshdik_logo</item>
+        <item>@drawable/ei_somoy_logo</item>
+        <item>@drawable/ananda_alo_logo</item>
+        <item>@drawable/computer_jagat_logo</item>
+        <item>@drawable/saptahik_logo</item>
+        <item>@drawable/corporate_logo</item>
+        <item>@drawable/kali_kalam_logo</item>
+        <item>@drawable/chardik_obela_logo</item>
+        <item>@drawable/banglar_mathi_logo</item>
+    </array>
+
+    <!-- Magazine  news url -->
+
+    <string-array name="magazine_news_url">
+        <item>http://www.doshdik.com/</item>
+        <item>http://eisamay.indiatimes.com/</item>
+        <item>http://ananda-alo.com/</item>
+        <item>http://www.comjagat.com/</item>
+        <item>http://www.shaptahik.com</item>
+        <item>http://corporatenews.com.bd/</item>
+        <item>http://www.kaliokalam.com/</item>
+        <item>http://www.charbelachardik.net/</item>
+        <item>http://www.banglamati.net/</item>
+    </string-array>
+
+    <!-- List of Jobs title -->
+    <string-array name="jobs_news_title">
+        <item>BD Jobs</item>
+        <item>Prothom-alojobs</item>
+        <item>Nayadiganta Jobs Portal</item>
+        <item>Chakrionline</item>
+    </string-array>
+
+    <!-- jobs  news icon list -->
+
+    <array name="jobs_news_icons">
+        <item>@drawable/bdjobs</item>
+        <item>@drawable/prothoma_alo_jobs</item>
+        <item>@drawable/noyadigon_jobs</item>
+        <item>@drawable/chakirionlne_con</item>
+    </array>
+
+    <!-- jobs  news url -->
+
+    <string-array name="jobs_news_url">
+        <item>http://jobs.bdjobs.com/m/Searchcategories.aspx</item>
+        <item>http://www.prothom-alojobs.com/job-search</item>
+        <item>http://www.nayadigantajobs.com/</item>
+        <item>http://www.chakrionline.com/home</item>
+    </string-array>
+
+    <!-- List of Business title -->
+    <string-array name="business_news_title">
+        <item>Daily Financial Express</item>
+        <item>Daily Bonik Barta</item>
+        <item>Arthosuchak</item>
+        <item>ShareNews24</item>
+        <item>Dailysharebiz</item>
+        <item>Sharemarketbd</item>
+        <item>Dailystockbangladesh</item>
+        <item>BDstock.biz</item>
+        <item>Udyokta</item>
+        <item>Business24BD</item>
+    </string-array>
+
+    <!-- Business  news icon list -->
+
+    <array name="business_news_icons">
+        <item>@drawable/financial_express</item>
+        <item>@drawable/bonikbarta</item>
+        <item>@drawable/artho_suchok</item>
+        <item>@drawable/share_news</item>
+        <item>@drawable/sharebiz</item>
+        <item>@drawable/sharemarketbd</item>
+        <item>@drawable/daily_stok_bangladesh</item>
+        <item>@drawable/bdstock_logo</item>
+        <item>@drawable/uddokta</item>
+        <item>@drawable/business24</item>
+    </array>
+
+    <!-- Business  news url -->
+
+    <string-array name="business_news_url">
+        <item>http://www.thefinancialexpress-bd.com/</item>
+        <item>http://www.bonikbarta.com/</item>
+        <item>http://m.arthosuchak.com/?wpmp_switcher=mobile</item>
+        <item>http://sharenews24.com/</item>
+        <item>http://www.dailysharebiz.com/sharebiz/</item>
+        <item>http://www.sharemarketbd.com/</item>
+        <item>http://www.dailystockbangladesh.com/</item>
+        <item>http://www.bdstock.biz/</item>
+        <item>http://www.udyokta.com/</item>
+        <item>http://www.business24bd.com/</item>
+    </string-array>
+
+    <!-- List of Sport title -->
+    <string-array name="sport_news_title">
+        <item>ESPN</item>
+        <item>ESPN Cricinfo</item>
+        <item>ESPN Live Cricket Scores</item>
+        <item>Cricket match schedule </item>
+        <item>Star Sports </item>
+        <item>Start Spots Live Cricket Scores</item>
+        <item>Ten Sports</item>
+    </string-array>
+
+    <!-- Sport  news icon list -->
+
+    <array name="sport_news_icons">
+        <item>@drawable/esnp_logo</item>
+        <item>@drawable/esnp_crick</item>
+        <item>@drawable/esnp_logo</item>
+        <item>@drawable/esnp_crick</item>
+        <item>@drawable/star</item>
+        <item>@drawable/star</item>
+        <item>@drawable/tensports</item>
+    </array>
+
+    <!-- Sport  news url -->
+
+    <string-array name="sport_news_url">
+        <item>http://m.espn.go.com</item>
+        <item>http://www.espncricinfo.com/</item>
+        <item>http://m.espncricinfo.com/ci/engine/match/index.html?state=live</item>
+        <item>http://www.espncricinfo.com/ci/engine/match/index.html?view=calendar</item>
+        <item>http://m.starsports.com</item>
+        <item>http://www.starsports.com/cricket/livescores/index.html</item>
+        <item>http://www.tensports.com/</item>
+    </string-array>
+
+    <!-- List of private university name -->
+    <string-array name="private_university_list">
+        <item>Ahsanullah University of Science and Technology</item>
+        <item>America Bangladesh University</item>
+        <item>American International University Bangladesh</item>
+        <item>ASA University Bangladesh</item>
+        <item>Asian University of Bangladesh</item>
+        <item>Atish Dipankar University of Science and Technology</item>
+        <item>Bangladesh Islami University</item>
+        <item>Bangladesh University</item>
+        <item>Bangladesh University of Business and Technology (BUBT)</item>
+        <item>Bangladesh University of Health Sciences</item>
+        <item>BGC Trust University Bangladesh, Chittagong**</item>
+        <item>BGMEA University of Fashion and Technology</item>
+        <item>BRAC University</item>
+        <item>Britannia University</item>
+        <item>CCN University of Science and Technology</item>
+        <item>Central "Women's" University</item>
+        <item>Chittagong Independent University (CIU)</item>
+        <item>City University</item>
+        <item>Coxs Bazar International University</item>
+        <item>Daffodil International University</item>
+        <item>Darul Ihsan University***</item>
+        <item>Dhaka International University</item>
+        <item>East Delta University , Chittagong</item>
+        <item>East West University</item>
+        <item>Eastern University</item>
+        <item>European University of Bangladesh</item>
+        <item>Exim Bank Agricultural University, Bangladesh</item>
+        <item>Fareast International University</item>
+        <item>Feni University</item>
+        <item>First Capital University of the Bangladesh</item>
+        <item>German University Bangladesh</item>
+        <item>Gono Bishwabidyalay</item>
+        <item>Green University of Bangladesh</item>
+        <item>Hamdard University Bangladesh</item>
+        <item>IBAIS University***</item>
+        <item>Independent University, Bangladesh</item>
+        <item>International Islamic University, Chittagong*</item>
+        <item>International University of Business Agriculture and Technology</item>
+        <item>Ishakha International University</item>
+        <item>Khwaja Yunus Ali University</item>
+        <item>Leading University, Sylhet</item>
+        <item>Manarat International University</item>
+        <item>Metropolitan University, Sylhet</item>
+        <item>North Bengal International University</item>
+        <item>North East University Bangladesh</item>
+        <item>North South University</item>
+        <item>North Western University, Khulna</item>
+        <item>Northern University Bangladesh</item>
+        <item>Notre Dame University Bangladesh</item>
+        <item>Port City International University</item>
+        <item>Premier University, Chittagong</item>
+        <item>Presidency University</item>
+        <item>Prime University</item>
+        <item>Primeasia University</item>
+        <item>Queens University</item>
+        <item>Rajshahi Science and Technology University (RSTU), Natore</item>
+        <item>Ranada Prasad Shaha University</item>
+        <item>Royal University of Dhaka</item>
+        <item>Shanto Mariam University of Creative Technology</item>
+        <item>Sheikh Fazilatunnesa Mujib University</item>
+        <item>Sonargaon University</item>
+        <item>Southeast University</item>
+        <item>Southern University Bangladesh , Chittagong***</item>
+        <item>Stamford University, Bangladesh</item>
+        <item>State University Of Bangladesh</item>
+        <item>Sylhet International University, Sylhet</item>
+        <item>The Millennium University</item>
+        <item>The Peoples University of Bangladesh*</item>
+        <item>The University of Asia Pacific</item>
+        <item>United International University</item>
+        <item>University of Development Alternative</item>
+        <item>University of Information Technology and Sciences</item>
+        <item>University of Liberal Arts Bangladesh</item>
+        <item>University of Science and Technology, Chittagong</item>
+        <item>University of South Asia</item>
+        <item>Uttara University</item>
+        <item>Varendra University</item>
+        <item>Victoria University of Bangladesh</item>
+        <item>World University of Bangladesh</item>
+        <item>Z.H SIKDER UNIVFRSITY OF SCIENCE and TECHNOLOGY</item>
+    </string-array>
+
+    <!-- private university url -->
+
+    <string-array name="private_university_url">
+        <item>http://www.aust.edu/</item>
+        <item>http://www.americabangladeshuniversity.edu.bd/</item>
+        <item>http://www.aiub.edu/</item>
+        <item>http://www.asaub.edu.bd/</item>
+        <item>http://www.asian-university.org</item>
+        <item>http://www.atishdipankaruniversity.edu.bd/</item>
+        <item>http://www.biu.ac.bd/</item>
+        <item>http://www.bu.edu.bd/</item>
+        <item>http://www.bubt.edu.bd/</item>
+        <item>http://www.buhs-edu.org/</item>
+        <item>http://www.bgctub-edu.com/</item>
+        <item>http://buft.edu.bd/</item>
+        <item>http://www.bracu.ac.bd/</item>
+        <item>http://www.britannia.ac/</item>
+        <item>http://www.ccnust.edu.bd/</item>
+        <item>http://cwu.edu.bd/</item>
+        <item>http://www.ciu.edu.bd/</item>
+        <item>http://www.city.ac.uk/</item>
+        <item>http://www.cbiu.ac.bd/</item>
+        <item>http://daffodilvarsity.edu.bd/</item>
+        <!-- 20 university url -->
+        <item>http://www.diubd.edu.bd/</item>
+        <item>http://www.diu-edu.net/</item>
+        <item>http://www.eastdelta.edu.bd/</item>
+        <item>http://www.eastwest.edu/</item>
+        <item>http://www.eastern.edu/</item>
+        <item>http://www.eub.edu.bd/</item>
+        <item>http://www.ebaub.edu.bd/</item>
+        <item>http://www.fiu.edu.bd/</item>
+        <item>http://www.feniuniversity.edu.bd/</item>
+        <item>http://www.fcubd.net/</item>
+        <item>http://www.gub.edu.bd/</item>
+        <item>http://www.gonouniversity.edu.bd/</item>
+        <item>http://www.green.edu.bd/</item>
+        <item>http://hamdarduniversity.edu.bd/</item>
+        <item>http://www.ibaisuniv.edu.bd/</item>
+        <item>http://www.iub.edu.bd/</item>
+        <item>http://www.iiu.edu.pk/</item>
+        <item>http://www.iubat.edu/</item>
+        <item>http://www.ishakha.edu.bd</item>
+        <item>http://www.kyau.edu.bd/</item>
+        <!-- 20 university url -->
+        <item>http://www.lus.ac.bd/</item>
+        <item>http://www.manarat.ac.bd/</item>
+        <item>http://metrouni.edu.bd/</item>
+        <item>http://www.studentstation.com</item>
+        <item>http://www.neub.edu.bd/</item>
+        <item>http://www.northsouth.edu/</item>
+        <item>http://www.northwestern.edu/</item>
+        <item>http://www.nub.ac.bd/</item>
+        <item>http://ndub.edu.bd/</item>
+        <item>http://www.portcity.edu.bd/</item>
+        <item>http://www.puc.ac.bd/</item>
+        <item>http://www.presiuniv.ac.in/web/</item>
+        <item>http://www.primeuniversity.edu.bd</item>
+        <item>http://www.primeasia.edu.bd/</item>
+        <item>http://www.queensu.ca/</item>
+        <item>http://www.rstu.edu.bd/</item>
+        <item>http://rpsu.edu.bd/rpsu/</item>
+        <item>http://www.royal.edu.bd/</item>
+        <item>http://www.smuct.edu.bd/</item>
+        <item>http://sfmuniversity.org/</item>
+        <!-- 20 university url -->
+        <item>http://www.su.edu.bd/</item>
+        <item>http://www.seu.ac.bd/</item>
+        <item>http://www.southern.edu.bd/</item>
+        <item>http://www.stamforduniversity.edu.bd/</item>
+        <item>http://www.sub.edu.bd/</item>
+        <item>http://www.siu.edu.bd/</item>
+        <item>http://themillenniumuniversity.edu.bd</item>
+        <item>http://www.pub.ac.bd/</item>
+        <item>http://www.uap-bd.edu/</item>
+        <item>http://www.uiu.ac.bd/</item>
+        <item>http://www.uoda.edu.bd/</item>
+        <item>http://www.uits.edu.bd/</item>
+        <item>http://www.ulab.edu.bd/</item>
+        <item>http://www.ustm.ac.in/</item>
+        <item>http://www.southasia-uni.org/</item>
+        <item>http://www.uttarauniversity.edu.bd/</item>
+        <item>http://vu.edu.bd/</item>
+        <item>http://www.vub.edu.bd/</item>
+        <item>http://www.wub.edu.bd/</item>
+        <item>http://zhsust.edu.bd/sust/</item>
+    </string-array>
+
+    <!-- public university list -->
+
+    <string-array name="public_university_list">
+        <item>Bangabandhu Sheikh Mujibur Rahman Maritime university, Bangladesh</item>
+        <item>Bangabandhu Sheikh Mujib Medical University</item>
+        <item>Bangabandhu Sheikh Mujibur Rahaman Science and Technology University</item>
+        <item>Bangabandhu Sheikh Mujibur Rahman Agricultural University</item>
+        <item>Bangladesh Agricultural University,Mymensingh</item>
+        <item>Bangladesh Open University</item>
+        <item>Bangladesh Textile University</item>
+        <item>Bangladesh University of Engineering and Technology</item>
+        <item>Bangladesh University of Professionals</item>
+        <item>Barisal University</item>
+        <item>Begum Rokeya University</item>
+        <item>Chittagong University of Engineering and Technology</item>
+        <item>Chittagong Veterinary and Animal Sciences University</item>
+        <item>Comilla University</item>
+        <item>Dhaka University</item>
+        <item>Dhaka University of Engineering and Technology</item>
+        <item>Hajee Mohammad Danesh Science and Technology University</item>
+        <item>Islamic University</item>
+        <item>Jagannath University</item>
+        <item>Jahangirnagar University</item>
+        <item>Jatiya Kabi Kazi Nazrul Islam University</item>
+        <item>Jessore University of Science and Technology</item>
+        <item>Khulna University</item>
+        <item>Khulna University of Engineering and Technology</item>
+        <item>Mawlana Bhashani Science and Technology University</item>
+        <item>National University</item>
+        <item>Noakhali Science and Technology University</item>
+        <item>Pabna University of Science and Technology</item>
+        <item>Patuakhali Science And Technology University</item>
+        <item>Rajshahi University</item>
+        <item>Rajshahi University of Engineering and Technology</item>
+        <item>Shahjalal University of Science and Technology</item>
+        <item>Sher-e-Bangla Agricultural University</item>
+        <item>Sylhet Agricultural University</item>
+        <item>University of Chittagong</item>
+    </string-array>
+
+    <!-- List of public university url -->
+    <string-array name="public_university_url">
+        <item>http://www.bsmrmu.edu.bd/</item>
+        <item>http://www.bsmmu.edu.bd/</item>
+        <item>http://www.bsmrstu.edu.bd</item>
+        <item>http://bsmrau.edu.bd/</item>
+        <item>http://www.bau.edu.bd/</item>
+        <item>http://www.bou.edu.bd/</item>
+        <item>http://www.butex.edu.bd/</item>
+        <item>http://www.buet.ac.bd/</item>
+        <item>http://bup.edu.bd/</item>
+        <item>http://www.barisaluniv.edu.bd/</item>
+        <item>http://www.brur.ac.bd/</item>
+        <item>http://www.cuet.ac.bd/</item>
+        <item>http://www.cvasu.ac.bd/</item>
+        <item>http://www.cou.ac.bd/</item>
+        <item>http://www.du.ac.bd/</item>
+        <item>http://www.duet.ac.bd/</item>
+        <item>http://www.hstu.ac.bd/</item>
+        <item>http://www.islamicuniversity.edu.in/</item>
+        <item>http://www.jagannathuniversity.org/</item>
+        <item>http://www.juniv.edu/</item>
+        <item>http://www.jkkniu.edu.bd/</item>
+        <item>http://www.just.edu.bd/</item>
+        <item>http://www.ku.ac.bd/</item>
+        <item>http://www.kuet.ac.bd/</item>
+        <item>http://mbstu.ac.bd/</item>
+        <item>http://www.nu.edu/</item>
+        <item>http://www.nstu.edu.bd/</item>
+        <item>http://www.pust.ac.bd/</item>
+        <item>http://www.pstu.ac.bd/</item>
+        <item>http://www.ru.ac.bd/</item>
+        <item>http://www.ruet.ac.bd/</item>
+        <item>http://www.sust.edu/</item>
+        <item>http://sau.edu.bd/</item>
+        <item>http://www.sau.ac.bd/</item>
+        <item>http://www.cu.ac.bd/</item>
+    </string-array>
+
+    <!-- List of international news title -->
+    <string-array name="international_news_title">
+        <item>The New York Times</item>
+        <item>The Washington Post</item>
+        <item>The Wall Street Journal</item>
+        <item>USA Today</item>
+        <item>Los Angeles Times</item>
+        <item>The Examiner</item>
+        <item>Daily News</item>
+        <item>Chicago Tribune</item>
+        <item>Houston Chroncle</item>
+        <item>New York Post</item>
+        <item>The Christian Science Monitor</item>
+        <item>The Hollywood Reporter</item>
+        <item>The Chicago Sun-Times</item>
+        <item>The Washinton Times</item>
+        <item>The Pladelphia Inquirer</item>
+        <item>San Jose Mercury News</item>
+        <item>The Onon</item>
+        <item>The Denver Post</item>
+        <item>Newsday</item>
+        <item>The Sacramento Bee</item>
+        <item>Star Tribune</item>
+        <item>The Miami Herald</item>
+        <item>The Dallas Mornng News</item>
+        <item>The Boston Globe</item>
+        <item>The Oregonian</item>
+        <item>The Baltiimore Sun</item>
+        <item>The Seattle Times</item>
+        <item>The Atlanta Journal-Constitution</item>
+        <item>Boston Herald</item>
+        <item>The Plain Dealer</item>
+        <item>Detroit Free Press</item>
+        <item>Seattle Post-Intelligencer</item>
+        <item>Orlando Sentinel</item>
+        <item>South Florida Sun-Sentinel</item>
+        <item>The Hill</item>
+        <item>Pittsburgh Post-Gazette</item>
+        <item>Milwaukee Journal Sentinel</item>
+        <item>The Kansas City Star</item>
+        <item>The New York Observer</item>
+        <item>St. Louis Post-Dispatch</item>
+        <item>The Orange County Register</item>
+        <item>The Columbus Dispatch</item>
+        <item>Hartford Courant</item>
+        <item>Express-News</item>
+        <item>The News and Observer</item>
+        <item>Deseret News</item>
+        <item>Salt Lake Tribune</item>
+        <item>"Investor's" Business Daily</item>
+        <item>Times Union</item>
+        <item>Arizona Daily Star</item>
+        <item>The Guardian</item>
+        <item>The Daily Mail</item>
+        <item>The Daily Telegraph</item>
+        <item>The Independent</item>
+        <item>Financial Times</item>
+        <item>Daily Mirror</item>
+        <item>The Sun</item>
+        <item>Daily Express</item>
+        <item>The Times</item>
+        <item>Evening Standard</item>
+        <item>Bild</item>
+        <item>Die Welt</item>
+        <item>Suddeutsche Zeitung</item>
+        <item>Die Zeit</item>
+        <item>Handelsblatt</item>
+        <item>Rheinische Post</item>
+        <item>Die Tageszeitung</item>
+        <item>Hamburger Abendblatt</item>
+        <item>The Times of India</item>
+        <item>The Hindu</item>
+        <item>The Hindustan Times</item>
+        <item>Dainik Bhaskar</item>
+        <item>"The People's" Daily</item>
+        <item>Qingdao News</item>
+        <item>Yangtse Evening Post</item>
+        <item>La Repubblica</item>
+        <item>Corriere della Sera</item>
+        <item>II Sole24 Ore</item>
+        <item>La Gazzetta dello Sport</item>
+        <item>La Stampa</item>
+        <item>El Pais</item>
+        <item>ABC</item>
+        <item>AS</item>
+        <item>El Economista</item>
+        <item>La Vanguardia</item>
+        <item>Le Monde</item>
+        <item>Liberation</item>
+        <item>Le Nouvel Observateur</item>
+        <item>"L'Equipe"</item>
+        <item>Les Echos</item>
+        <item>Milliyet</item>
+        <item>Sabah</item>
+        <item>Zaman</item>
+        <item>Asahi Shimbun</item>
+        <item>Yomiuri Shimbun</item>
+        <item>Nihon Keizai Shimbun</item>
+        <item>The Japan Times</item>
+        <item>Mainichi Shimbun</item>
+        <item>Nikkan Sports</item>
+        <item>Sankei Sports</item>
+        <item>The Age</item>
+        <item>Herald Sun</item>
+        <item>The Advertiser</item>
+        <item>Kommersant</item>
+        <item>Rossiyskaya Gazeta</item>
+        <item>Charin</item>
+        <item>La Nacion</item>
+        <item>"Pagina/12"</item>
+        <item>Aftonbladet</item>
+        <item>Dagens Nyheter</item>
+        <item>The Jerusalem Post</item>
+        <item>Haaretz</item>
+        <item>Yediot Aharonot</item>
+        <item> Dagbladet</item>
+        <item>Verdens Gang</item>
+        <item>Aftenposten</item>
+        <item>The Globe and Mail</item>
+        <item>The Toronto Star</item>
+        <item>The Vancouver Sun</item>
+        <item>Toronto Sun</item>
+        <item>Algemeen Dagblad</item>
+        <item>NRC Handelsblad</item>
+        <item> United Daily News</item>
+        <item>China Times</item>
+        <item>Arab News</item>
+        <item>Asharq Al-Awsat</item>
+        <item>Gazeta Wyborcza</item>
+        <item>Mlada fronta Dnes</item>
+        <item>O Globo </item>
+        <item>The New Zealand Herald </item>
+        <item>Al-Ahram</item>
+        <item>Philippine Daily Inquirer</item>
+        <item>The Star Online</item>
+        <item>Kompas</item>
+        <item>Dawn</item>
+        <item>The Irish Independent</item>
+        <item>Het Nieuwsblad</item>
+        <item>The Straits Times</item>
+        <item>Gulf News</item>
+        <item>Die Presse</item>
+        <item>o Vima</item>
+        <item>El Unversal</item>
+    </string-array>
+
+    <!-- Sport  news url -->
+
+    <string-array name="international_state">
+
+        <!-- 50 United States -->
+
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <!-- 10 United Kingdom -->
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <!-- 8  Germany -->
+        <item>Germany</item>
+        <item>Germany</item>
+        <item>Germany</item>
+        <item>Germany</item>
+        <item>Germany</item>
+        <item>Germany</item>
+        <item>Germany</item>
+        <item>Germany</item>
+        <!-- 12  India and China and Italy -->
+        <item>India</item>
+        <item>India</item>
+        <item>India</item>
+        <item>India</item>
+        <item>China</item>
+        <item>China</item>
+        <item>China</item>
+        <item>Italy</item>
+        <item>Italy</item>
+        <item>Italy</item>
+        <item>Italy</item>
+        <item>Italy</item>
+        <!-- 10 Spain and France -->
+        <item>Spain</item>
+        <item>Spain</item>
+        <item>Spain</item>
+        <item>Spain</item>
+        <item>Spain</item>
+        <item>France</item>
+        <item>France</item>
+        <item>France</item>
+        <item>France</item>
+        <item>France</item>
+        <!-- 10 Japan and Turky -->
+        <item>Turky</item>
+        <item>Turky</item>
+        <item>Turky</item>
+        <item>Japan</item>
+        <item>Japan</item>
+        <item>Japan</item>
+        <item>Japan</item>
+        <item>Japan</item>
+        <item>Japan</item>
+        <item>Japan</item>
+        <!-- 20 -->
+        <item>Australia</item>
+        <item>Australia</item>
+        <item>Australia</item>
+        <item>Russia</item>
+        <item>Russia</item>
+        <item>Argentina</item>
+        <item>Argentina</item>
+        <item>Argentina</item>
+        <item>Sweden</item>
+        <item>Sweden</item>
+        <item>Israel</item>
+        <item>Israel</item>
+        <item>Israel</item>
+        <item>Norway</item>
+        <item>Norway</item>
+        <item>Norway</item>
+        <item>Canada</item>
+        <item>Canada</item>
+        <item>Canada</item>
+        <item>Canada</item>
+        <!-- 22 -->
+        <item>Netherlands</item>
+        <item>Netherlands</item>
+        <item>Taiwan</item>
+        <item>Taiwan</item>
+        <item>Saudi Arabia</item>
+        <item>Saudi Arabia</item>
+        <item>Poland</item>
+        <item>Czech Republic</item>
+        <item>Brazil</item>
+        <item>New Zealand</item>
+        <item>Egypt</item>
+        <item>Philppines</item>
+        <item>Malaysia</item>
+        <item>Indonesia</item>
+        <item>Pakistan</item>
+        <item>Ireland</item>
+        <item>Belgium</item>
+        <item>Singapore</item>
+        <item>United Arab Emirates</item>
+        <item>Austria</item>
+        <item>Greece</item>
+        <item>Venezula</item>
+    </string-array>
+
+    <!-- International  news url -->
+
+    <string-array name="international_news_url">
+        <item>http://www.nytimes.com/</item>
+        <item>http://www.washingtonpost.com/</item>
+        <item>http://www.wsj.com/</item>
+        <item>http://www.usatoday.com/</item>
+        <item>http://www.latimes.com/</item>
+        <item>http://www.examiner.com.au/</item>
+        <item>http://www.nydailynews.com/</item>
+        <item>http://www.chicagotribune.com/</item>
+        <item>http://www.chron.com/</item>
+        <item>http://nypost.com/</item>
+        <item>http://www.csmonitor.com/</item>
+        <item>http://www.hollywoodreporter.com/</item>
+        <item>http://chicago.suntimes.com/</item>
+        <item>http://www.washingtontimes.com/</item>
+        <item>http://www.philly.com/inquirer/</item>
+        <item>http://www.mercurynews.com/</item>
+        <item>http://www.theonion.com/</item>
+        <item>http://www.denverpost.com/</item>
+        <item>http://www.newsday.com/</item>
+        <item>http://www.sacbee.com/</item>
+        <!-- 20 url -->
+        <item>http://www.startribune.com/</item>
+        <item>http://www.miamiherald.com/</item>
+        <item>http://www.dallasnews.com/</item>
+        <item>http://www.bostonglobe.com/</item>
+        <item>http://www.oregonlive.com</item>
+        <item>http://www.baltimoresun.com/</item>
+        <item>http://www.seattletimes.com/</item>
+        <item>http://www.ajc.com/</item>
+        <item>http://www.bostonherald.com/</item>
+        <item>http://www.cleveland.com/</item>
+        <item>http://www.freep.com/</item>
+        <item>http://www.seattlepi.com/</item>
+        <item>http://www.orlandosentinel.com/</item>
+        <item>http://www.sun-sentinel.com/</item>
+        <item>http://thehill.com/</item>
+        <item>http://www.post-gazette.com/</item>
+        <item>http://www.jsonline.com/</item>
+        <item>http://www.kansascity.com/</item>
+        <item>http://observer.com/</item>
+        <item>http://www.stltoday.com/</item>
+        <!-- 20 url -->
+        <item>http://www.ocregister.com/</item>
+        <item>http://www.dispatch.com/</item>
+        <item>http://www.courant.com/</item>
+        <item>http://www.express.com.pk/</item>
+        <item>http://www.newsobserver.com/</item>
+        <item>http://www.deseretnews.com/</item>
+        <item>http://www.sltrib.com/</item>
+        <item>http://www.investors.com/default.htm</item>
+        <item>http://www.timesunion.com/</item>
+        <item>http://tucson.com/</item>
+        <item>http://www.theguardian.com/uk</item>
+        <item>http://www.dailymail.co.uk/home/index.html</item>
+        <item>http://www.dailytelegraph.com.au/</item>
+        <item>http://www.independent.co.uk/</item>
+        <item>http://www.ft.com/home/uk</item>
+        <item>http://www.mirror.co.uk/</item>
+        <item>http://www.thesun.co.uk/sol/</item>
+        <item>http://www.express.co.uk/</item>
+        <item>http://www.thetimes.co.uk/tto/news/</item>
+        <item>http://www.standard.co.uk/</item>
+        <!-- 20 url -->
+        <item>http://www.bild.de/</item>
+        <item>http://www.welt.de/</item>
+        <item>http://www.sueddeutsche.de/</item>
+        <item>http://www.zeit.de/index</item>
+        <item>http://www.handelsblatt.com/</item>
+        <item>http://www.rp-online.de/</item>
+        <item>http://www.taz.de/</item>
+        <item>http://www.abendblatt.de/</item>
+        <item>http://timesofindia.indiatimes.com/</item>
+        <item>http://www.thehindu.com/</item>
+        <item>http://www.hindustantimes.com/</item>
+        <item>http://www.bhaskar.com/</item>
+        <item>http://en.people.cn/</item>
+        <item>http://www.qingdaonews.com/</item>
+        <item>http://www.mondotimes.com</item>
+        <item>http://www.repubblica.it/</item>
+        <item>http://www.corriere.it/</item>
+        <item>http://www.ilsole24ore.com/</item>
+        <item>http://www.gazzetta.it/</item>
+        <item>http://www.lastampa.it/</item>
+        <!-- 20 url -->
+        <item>http://elpais.com/</item>
+        <item>http://abc.go.com/</item>
+        <item>http://as.com/</item>
+        <item>http://www.eleconomista.es/</item>
+        <item>http://www.lavanguardia.com</item>
+        <item>http://www.lemonde.fr/</item>
+        <item>http://www.liberation.fr/</item>
+        <item>http://tempsreel.nouvelobs.com/</item>
+        <item>http://www.lequipe.fr/</item>
+        <item>http://www.lesechos.fr/</item>
+        <item>http://www.milliyet.com.tr/</item>
+        <item>http://www.sabah.com.tr/</item>
+        <item>http://www.zaman.com.tr/haber</item>
+        <item>http://www.asahi.com/</item>
+        <item>http://www.yomiuri.co.jp/</item>
+        <item>http://www.nikkei.com/</item>
+        <item>http://www.japantimes.co.jp/</item>
+        <item>http://mainichi.jp/english/</item>
+        <item>http://www.nikkansports.com/</item>
+        <item>http://www.sanspo.com/</item>
+        <!-- 20 url -->
+
+        <item>http://www.theage.com.au/</item>
+        <item>http://www.heraldsun.com.au/</item>
+        <item>http://www.adelaidenow.com.au/</item>
+        <item>http://www.kommersant.ru/</item>
+        <item>http://www.rg.ru/about.html</item>
+        <item>http://www.charinsf.com/</item>
+        <item>http://www.lanacion.com.ar/</item>
+        <item>http://www.pagina12.com.ar</item>
+        <item>http://www.aftonbladet.se/</item>
+        <item>http://www.dn.se/</item>
+        <item>http://www.jpost.com</item>
+        <item>http://www.haaretz.com/</item>
+        <item>http://www.ynetnews.com</item>
+        <item>http://www.dagbladet.no/</item>
+        <item>http://www.vg.no/</item>
+        <item>http://www.aftenposten.no/</item>
+        <item>http://www.theglobeandmail.com/</item>
+        <item>http://www.thestar.com/</item>
+        <item>http://www.vancouversun.com/index.html</item>
+        <item>http://www.torontosun.com/</item>
+        <!-- 22 url -->
+        <item>http://www.ad.nl/</item>
+        <item>http://www.nrc.nl/</item>
+        <item>http://www.uniteddaily.com.my/</item>
+        <item>http://www.chinatimes.com/</item>
+        <item>http://www.arabnews.com/</item>
+        <item>http://www.aawsat.net/</item>
+        <item>http://wyborcza.pl/0,0.html</item>
+        <item>http://www.idnes.cz/</item>
+        <item>http://oglobo.globo.com/</item>
+        <item>http://www.nzherald.co.nz/</item>
+        <item>http://www.ahram.org.eg/</item>
+        <item>http://www.inquirer.net/</item>
+        <item>http://www.thestar.com.my/</item>
+        <item>http://www.kompas.com/</item>
+        <item>http://www.dawn.com/</item>
+        <item>http://www.independent.ie/</item>
+        <item>http://www.nieuwsblad.be/</item>
+        <item>http://www.straitstimes.com/</item>
+        <item>http://gulfnews.com/</item>
+        <item>http://diepresse.com/</item>
+        <item>http://www.tovima.gr/</item>
+        <item>http://www.eluniversal.com.mx</item>
+    </string-array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_news">NewsActivity</string>
+    <string name="bangla_header_news">BANGLA NEWS</string>
+    <string name="international_header_news">INTERNATIONAL NEWS</string>
+    <string name="jobs_header_news">JOBS NEWS</string>
+    <string name="magazine_header_news">MAGAZINE</string>
+    <string name="english_header_news">ENGLISH NEWS</string>
+    <string name="business_header_news">BUSINESS NEWS</string>
+    <string name="sport_header_news">SPORT NEWS</string>
+    <string name="title_activity_web_view">News view</string>
+    <string name="title_activity_business__news_">Business_News_Activity</string>
+    <string name="title_activity_jobs__news_">Jobs_News_Activity</string>
+    <string name="title_activity_sport_news_">Sport_news_Activity</string>
+    <string name="title_activity_english_news_">English_news_Activity</string>
+    <string name="title_activity_magazine__news_">Magazine_News_Activity</string>
+    <string name="title_activity_interntaional__news_">Interntaional_News_Activity</string>
+    <string name="title_activity_single_item_view">SingleItemView</string>
+    <string name="title_activity_versity__news">BD University List</string>
+    <string name="title_activity_private__university_">Private_University_Activity</string>
+    <string name="title_activity_public__unversity__list">Public_Unversity_List</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+</resources>
